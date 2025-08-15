@@ -29,17 +29,8 @@ PRIMARY KEY (id)
 # Select 'Table Data Importation Wizard'
 # Select customer_data.csv
 
-#-----------------------
-# CREATE A STAGING TABLE
-#-----------------------
-# Import the table again and name it customer_data_staging
-# This is a back up table in case we make a mistake in the
-# data cleaning process.
 
-
-#-----------------------
-# DATA CLEANING
-#-----------------------
+# Note that it's good practice to create a staging or back up table in case we make a mistake in the data cleaning process.
 
 # Let's look at the data.
 SELECT * 

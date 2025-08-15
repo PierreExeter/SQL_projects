@@ -9,11 +9,11 @@ Using :
 
 ## Customer Data Cleaning
 
-Data cleaning of customer data using SQL queries:
-- remove duplicates
-- standardize data in correct format
-- remove blank values
-- break down one column into multiple columns
+```
+customer_data_cleaning.sql
+```
+
+Data cleaning is the foundational step in any data analysis process. In this project, I cleaned customer data using SQL by removing duplicates, handling missing values, standardizing formats, and splitting columns for better usability.
 
 #### BEFORE CLEANING
 ![Alt Text](img/customer_1.png)
