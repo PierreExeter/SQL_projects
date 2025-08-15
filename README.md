@@ -7,12 +7,17 @@ Using :
 - MySQL Workbench 8.0
 
 
-## customer_data_cleaning.sql
+## Customer Data Cleaning
 
-Data cleaning of customer data :
+Data cleaning of customer data using SQL queries:
 - remove duplicates
 - standardize data in correct format
 - remove blank values
 - break down one column into multiple columns
 
+#### BEFORE CLEANING
+![Alt Text](img/customer_1.png)
+
+#### AFTER CLEANING
+![Alt Text](img/customer_2.png)
 
