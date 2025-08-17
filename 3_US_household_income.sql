@@ -35,8 +35,6 @@ FROM US_household_income_statistics;
 # of the US_household_income table. Let's ingnore this
 # as most of the data was imported correctly (32,526 records in total).
 
-
-
 #-----------------------
 # DROP DUPLICATES
 #-----------------------
@@ -126,7 +124,7 @@ AND City = 'Vinemont'
 # Let's look at the Type column
 SELECT Type, COUNT(Type) 
 FROM US_household_income
-GROUP BY id
+GROUP BY Type
 ;
 
 # There is a spelling mistake : 'Borough' should be 'Boroughs'. 
@@ -169,7 +167,7 @@ GROUP BY State_name
 ORDER BY 2 DESC
 ;
 
-# Texas and California are the largest state, this makes sense.
+# Alaska and Texas are the largest state, this makes sense.
 
 # Let's order by area of water.
 SELECT State_Name, SUM(ALand), SUM(AWater) 

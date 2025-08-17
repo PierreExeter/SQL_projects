@@ -41,6 +41,9 @@ This SQL script carries out data cleaning and Exploratory Data Analysis (EDA) on
 3_US_household_income.sql
 ```
 
+![Alt Text](img/US_income_1.png)
+![Alt Text](img/US_income_2.png)
+
 In this project, I performed data cleaning on a dataset describing the household income in different US states and cities. I then analysed the data to find out that :
 - Texas and California are the largest state by surface area.
 - Michigan is the state with the largest water area.
