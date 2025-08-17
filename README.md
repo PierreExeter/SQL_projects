@@ -36,4 +36,18 @@ This SQL script carries out data cleaning and Exploratory Data Analysis (EDA) on
 - Developed countries have a higher life expectancy than developing ones.
 - A Higher BMI is positively correlated with a higher life expectancy.
 
+## US Household Income
+```
+3_US_household_income.sql
+```
+
+In this project, I performed data cleaning on a dataset describing the household income in different US states and cities. I then analysed the data to find out that :
+- Texas and California are the largest state by surface area.
+- Michigan is the state with the largest water area.
+- The 5 states with the lowest household income
+- The top 10 states with the highest household income
+- In the richer states, there are some very high earners in these states, the income is not distributed evenly.
+- People living in municipalities tend to have a higher household income. 
+- People living in urban or communities have a dramatically lower average income than the rest of the population.
+
 

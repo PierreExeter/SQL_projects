@@ -34,7 +34,7 @@ GROUP BY Country, Year, CONCAT(Country, Year)
 HAVING COUNT(CONCAT(Country, Year)) > 1
 ;
 
-# # Method 1: Let's identify what the duplicates are by using a window function.
+# # Method 2: Let's identify what the duplicates are by using a window function.
 # By partitioning on the CountryYear concatenation, we add a row number.
 # If this row number is > 1, it means that we have found a duplicate.
 SELECT *
