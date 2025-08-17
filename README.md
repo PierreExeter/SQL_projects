@@ -2,11 +2,11 @@
 
 This repository contains SQL scripts for data cleaning and exploratory analysis across diverse datasets, including customer data, global life expectancy, and US household income. 
 
-Tools Used
+**Tools Used**
 - MySQL 8.0.43
 - MySQL Workbench 8.0
 
-#### Key Features
+**Key Features**
 - Data cleaning : duplicate removal, format standardization, missing value imputation, columns splitting.
 - Exploratory Data Analysis : identify trends and correlations.
 - Automated data cleaning via stored procedures and scheduled events.
@@ -22,10 +22,10 @@ Ideal for learning SQL-based data preparation and analysis workflows.
 
 Data cleaning is the foundational step in any data analysis process. This project demonstrates SQL techniques to prepare customer data—removing duplicates, filling missing values, standardizing formats, and splitting columns for better usability.
 
-*BEFORE CLEANING*
+**BEFORE CLEANING**
 ![Alt Text](img/customer_1.png)
 
-*AFTER CLEANING*
+**AFTER CLEANING**
 ![Alt Text](img/customer_2.png)
 
 ## World Life Expectancy
